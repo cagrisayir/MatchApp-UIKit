@@ -13,6 +13,9 @@
 		06FBF7C52B7BCC88007FB155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FBF7C32B7BCC88007FB155 /* Main.storyboard */; };
 		06FBF7C72B7BCC89007FB155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FBF7C62B7BCC89007FB155 /* Assets.xcassets */; };
 		06FBF7CA2B7BCC89007FB155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FBF7C82B7BCC89007FB155 /* LaunchScreen.storyboard */; };
+		06FBF7D22B7BD28B007FB155 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBF7D12B7BD28B007FB155 /* CardModel.swift */; };
+		06FBF7D42B7BD375007FB155 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBF7D32B7BD375007FB155 /* Card.swift */; };
+		06FBF7D62B7BD6BC007FB155 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBF7D52B7BD6BC007FB155 /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		06FBF7C62B7BCC89007FB155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FBF7C92B7BCC89007FB155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06FBF7CB2B7BCC89007FB155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FBF7D12B7BD28B007FB155 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		06FBF7D32B7BD375007FB155 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		06FBF7D52B7BD6BC007FB155 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				06FBF7BD2B7BCC88007FB155 /* AppDelegate.swift */,
 				06FBF7BF2B7BCC88007FB155 /* SceneDelegate.swift */,
+				06FBF7D12B7BD28B007FB155 /* CardModel.swift */,
 				06FBF7C12B7BCC88007FB155 /* ViewController.swift */,
 				06FBF7C32B7BCC88007FB155 /* Main.storyboard */,
 				06FBF7C62B7BCC89007FB155 /* Assets.xcassets */,
 				06FBF7C82B7BCC89007FB155 /* LaunchScreen.storyboard */,
 				06FBF7CB2B7BCC89007FB155 /* Info.plist */,
+				06FBF7D32B7BD375007FB155 /* Card.swift */,
+				06FBF7D52B7BD6BC007FB155 /* CardCollectionViewCell.swift */,
 			);
 			path = "MatchApp-UIKit";
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				06FBF7C22B7BCC88007FB155 /* ViewController.swift in Sources */,
+				06FBF7D22B7BD28B007FB155 /* CardModel.swift in Sources */,
+				06FBF7D42B7BD375007FB155 /* Card.swift in Sources */,
 				06FBF7BE2B7BCC88007FB155 /* AppDelegate.swift in Sources */,
+				06FBF7D62B7BD6BC007FB155 /* CardCollectionViewCell.swift in Sources */,
 				06FBF7C02B7BCC88007FB155 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
